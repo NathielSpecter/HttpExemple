@@ -19,7 +19,7 @@ namespace HttpExemple.Controller
             return await client.GetAsync(uri);
         }
 
-        //Criado um método do tipo assíncrono pra rodar em back e pasado uma model como parâmetro para ser preenchida!
+        //Criado um método do tipo assíncrono e pasado uma model como parâmetro para ser preenchida!
         //Exemplo :
         //  var objectModel = new UsersModel 
         // {
